@@ -16,7 +16,6 @@ namespace Tyuiu.OgorodnikDV.Sprint2.Task1.V16.Test
             bool[] res = new bool[6];
             res = ds.GetLogicOperations(a, b, c, d);
             bool[] wait = { true, true, true, false, true, false };
-
             CollectionAssert.AreEqual(res, wait);
 
         }
